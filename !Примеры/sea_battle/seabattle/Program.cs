@@ -158,12 +158,15 @@ namespace seabattle
             }
             foreach (Ship ship in player.Ships)
             {
-                foreach (var p in ship.Body)
+                if (activePlayer == player)
                 {
-                    Console.SetCursorPosition(1+x + p.X, 1+y + p.Y);
-                    Console.BackgroundColor = ConsoleColor.Blue;
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write(' ');
+                    foreach (var p in ship.Body)
+                    {
+                        Console.SetCursorPosition(1 + x + p.X, 1 + y + p.Y);
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write(' ');
+                    }
                 }
                 foreach (var p in ship.Damage)
                 {
