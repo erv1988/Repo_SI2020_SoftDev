@@ -62,13 +62,21 @@
 - изучить информацию по нейронным сетям:
 
 https://www.bizkit.ru/2020/02/22/16928/
+
 https://habr.com/ru/post/516458/
+
 https://habr.com/ru/post/516572/
+
 https://habr.com/ru/post/518766/
+
 https://www.youtube.com/playlist?list=PLfdVzZl6HHg9y9l6U5xUjqKS13rWoQPF4
+
 https://colab.research.google.com/
+
 https://www.tensorflow.org/tutorials
+
 https://habr.com/ru/post/454986/
+
 https://www.tensorflow.org/tutorials/keras/classification
 
 
